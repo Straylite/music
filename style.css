@@ -6,11 +6,14 @@
 audio {
     width: 300px;
     height: 54px;
-    position: fixed;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .musiccontainer:not(.newtext){
     display: flex;    
+    flex-wrap: wrap;
 
     background-image: linear-gradient(to bottom, #00bfff, #1982ea);
 
@@ -30,4 +33,3 @@ audio {
     font-size: 13px;
     top: 40px
 }
-
